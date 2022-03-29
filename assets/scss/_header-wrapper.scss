@@ -1,0 +1,104 @@
+.header-wrapper {
+  max-width: 1360px;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 40px;
+  background-color: #ffffff;
+  margin: 0 auto;
+
+  .header-wrapper__flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  
+    .logo {
+      cursor: pointer;
+    }
+    
+    .logo-img {
+      max-width: 180px;
+    }
+    
+    
+    .logo-img:hover {
+      opacity: 0.5s;
+    }
+    
+    .humberger {
+      color: #333333;
+      cursor: pointer;
+      span {
+        font-size: 250%;
+      }
+    }
+  }
+  
+  .header-wrapper__flex-container-mask {
+    .mask {
+      width: 100%;
+      background-color: #333333;
+      opacity: 0.7;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      cursor: pointer;
+      height: 100vh;
+    }
+    .nav {
+      color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      z-index: 999;
+      .menu__list {
+        .list-products,
+        .list-about,
+        .list-company,
+        .list-contact  {
+          margin-bottom: 14px;
+          animation-name: slideText;
+          animation-duration: 0.3s;
+          animation-timing-function: linear;
+          animation-delay: 0s;
+          animation-iteration-count: 1;
+          animation-direction: normal;
+          animation-fill-mode: forwards;
+        }
+        
+        }
+    
+      .close {
+        cursor: pointer;
+        opacity: 1;
+        span {
+          font-size: 250%;
+        }
+      }
+    }
+  }
+  
+  .disappear {
+    display: none;
+  }
+}
+
+@keyframes slideText {
+  0% {
+    transform: translateX(-80px);
+  }
+  100% {
+    transform: translateX(20px);
+
+  }
+}
+
+.subheading {
+  font-size: 0.875rem;
+  margin-bottom: 30px;
+}

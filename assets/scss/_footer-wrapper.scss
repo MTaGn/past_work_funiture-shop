@@ -1,0 +1,38 @@
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1360px;
+  padding: 80px 40px 0;
+  margin: 0 auto 20px;
+  .sns-container {
+    display: flex;
+    .sns {
+      margin-right: 40px;
+      font-size: 0.75rem;
+    }
+  }
+  .copyright {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer-wrapper {
+    display: block;
+    max-width: 1360px;
+    padding: 0 40px;
+    .sns-container {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      .sns {
+        margin:0;
+        text-align: center;
+      }
+    }
+    .copyright {
+      text-align: center;
+      padding-top: 30px;
+    }
+  }
+}

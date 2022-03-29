@@ -1,0 +1,44 @@
+.products-container__products {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .product {
+    margin-bottom: 40px;
+    width: 23%;
+    font-size: 0.75rem;
+    list-style: none;
+    .product-name {
+      margin-bottom: 10px;
+    }
+    .anker .pimg {
+      max-width: 100%;
+      object-fit: cover;
+      height: 232px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.more {
+  text-align: center;
+  .anker {
+    color: #333333;
+    transition: all .5s;
+  }
+  .anker:hover {
+    opacity: 0.5s;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .products-container {
+    .product {
+      // max-widthが効かないのでwidthに
+      width: 45%;
+      .anker .pimg {
+        width: 100%;
+        height: 140px;
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="shortcut icon" href="./assets/img/favicon.ico">
+  <!-- material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
+  <title>Funiture Design</title>
+</head>
+<body class="body">
+  <header id="header" class="header-wrapper">
+    <div class="header-wrapper__flex-container">
+
+      <h1 class="logo">
+        <a href="index.html" class="logo-anker">
+          <img src="./assets/img/logo.svg" alt="Funiture Design Logo" class="logo-img">
+        </a>
+      </h1>
+
+      <div class="humberger">
+        <span class="material-icons">drag_handle</span>
+      </div>
+
+    </div>
+
+    <div class="header-wrapper__flex-container-mask">
+
+      <nav class="nav disappear">
+        <ul class="menu__list disappear">
+          <li class="list-products"><a href="./products.html" class="list__anekr">PRODUCTS</a></li>
+          <li class="list-about"><a href="./about.html" class="list__anekr">ABOUT</a></li>
+          <li class="list-company"><a href="./compny.html" class="list__anekr">COMPANY</a></li>
+          <li class="list-contact"><a href="mailto:xxx.xxx&#64;xxx.com" class="list__anekr">CONTACT</a></li>
+        </ul>
+        <div class="close disappear">
+          <span class="material-icons">close</span>
+        </div>
+      </nav>
+      <div class="mask disappear"></div>
+
+    </div>
+
+  </header>
+  <main id="main" class="main">
+    <div class="products-container">
+      <!-- 商品一覧表示 4*3で表示 13件以降はpagerで2ページ以降に表示 -->
+      <ul class="products-container__products"></ul>
+    </div>
+    <div class="more">
+      <a href="./products.html" class="more__anker">view more</a>
+    </div>
+  </main>
+  <footer id="footer" class="footer-wrapper">
+    <ul class="sns-container">
+      <li class="sns"><a href="#" class="anker">TWITTER</a></li>
+      <li class="sns"><a href="#" class="anker">INSTAGRAM</a></li>
+      <li class="sns"><a href="#" class="anker">FACEBOOK</a></li>
+    </ul>
+    
+    <p class="copyright">&copy Funiture Design</p>
+  </footer>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

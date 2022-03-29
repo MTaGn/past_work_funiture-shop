@@ -1,0 +1,32 @@
+@use "header-wrapper" as header;
+@use "products-container" as products;
+@use "product-container" as product;
+@use "company-container" as company;
+@use "about-container" as about;
+@use "footer-wrapper" as footer;
+
+html {
+  font-size: 100%;
+  .body {
+    font-size: 1rem;
+
+    .main {
+      max-width: 1360px;
+      padding: 80px 40px 160px;
+      margin: 0 auto;
+    
+      .pagination {
+        margin: 0 auto;
+        max-width: 100%;
+        text-align: center;
+        .pager {
+          margin-right: 10px;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+
+
