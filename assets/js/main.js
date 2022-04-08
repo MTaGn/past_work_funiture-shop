@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function(){
 /*--------
 headerメニュー 共通
 ----------*/ 
@@ -143,3 +144,5 @@ if (fileName.slice(0, 11) === "detail.html") {
   const imgContainerElem = document.querySelector(".item-container__img") 
   imgContainerElem.appendChild(imgElem)
 }
+
+});
