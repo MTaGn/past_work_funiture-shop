@@ -1,9 +1,8 @@
 # site name
-英会話スクール紹介ランディングページ
+家具ECサイト(UIのみ)
 # porpose
-ふわっとしたアニメーションを使用して親しみやすいWebサイト構築を目的として作成しました
+JavaScriptにてImg要素作成することで最低限のマークアップで構築することを目的に作成しました
 # features
-アニメーション動作タイミングはパフォーマンスを考慮しjQueryを使用せずJavaScriptのIntersection APIを使用しています
+パフォーマンスを考慮しjQueryを使用せずJavaScriptを使用しています
 # requirement
 dart sassを使用しています
-JavaScriptのIntersection APIを使用しています
