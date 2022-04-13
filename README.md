@@ -1,1 +1,9 @@
-# past_work_funiture-shop
+# site name
+英会話スクール紹介ランディングページ
+# porpose
+ふわっとしたアニメーションを使用して親しみやすいWebサイト構築を目的として作成しました
+# features
+アニメーション動作タイミングはパフォーマンスを考慮しjQueryを使用せずJavaScriptのIntersection APIを使用しています
+# requirement
+dart sassを使用しています
+JavaScriptのIntersection APIを使用しています
