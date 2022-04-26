@@ -40,7 +40,7 @@ humbergerBtnElem.addEventListener("click", () => {
  表示画像作成
 -------------- */
 const imgInfoList = [
-  ["./assets/img/chair1.jpg?raw=true","?param=chair1.jpg", "chair1"],
+  ["./assets/img/chair1.jpg","?param=chair1.jpg", "chair1"],
   ["./assets/img/chair2.jpg","?param=chair2.jpg", "chair2"],
   ["./assets/img/chair3.jpg","?param=chair3.jpg", "chair3"],
   ["./assets/img/chair4.jpg","?param=chair4.jpg", "chair4"],
