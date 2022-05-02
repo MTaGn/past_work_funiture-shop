@@ -72,7 +72,6 @@ let showStartIndex = 0
 
 if (fileName === "") {
   // index.html
-  console.log("ccc");
   showNum = 8;
 } else if (fileName === "products.html") {
   // products.html
@@ -87,7 +86,7 @@ if (fileName === "") {
 要素を表示商品数分作成 
 */
 // index.html, products.htmlに画像表示
-if (fileName === "index.html" || fileName === "products.html") {
+if (fileName === "" || fileName === "products.html") {
   for(let i=0; i<showNum; i++) { 
     const liElem = document.createElement("li")
     liElem.classList.add("product")
