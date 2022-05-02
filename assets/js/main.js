@@ -1,6 +1,4 @@
-console.log("aaa");
 document.addEventListener('DOMContentLoaded', function(){
-  console.log("bbb");
 /*--------
 headerメニュー 共通
 ----------*/ 
@@ -65,14 +63,14 @@ const productsUlList = document.querySelector(".products-container__products")
 
 // ファイル毎に処理を変えるため
 const fileName = window.location.href.split("/").pop()
-console.log(fileName);
+console.log(fileName === "");
 // index.html:8枚, products.html:12枚表示, products-next.html:4枚を想定
 let showNum = 0;
 
 // imgInfoListの表示開始インデックス
 let showStartIndex = 0
 
-if (fileName === "index.html") {
+if (fileName === "") {
   // index.html
   console.log("ccc");
   showNum = 8;
